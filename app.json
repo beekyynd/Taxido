@@ -2,6 +2,11 @@
   "expo": {
     "name": "TaxidoUserApp",
     "slug": "TaxidoUserApp",
-    "version": "0.0.1"
+    "version": "0.0.1",
+    "extra": {
+      "eas": {
+        "projectId": "d6fefdec-b864-4e1e-b64d-1325708427a9"
+      }
+    }
   }
 }
