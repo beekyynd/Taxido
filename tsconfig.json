@@ -1,0 +1,34 @@
+{
+  "extends": "@react-native/typescript-config/tsconfig.json",
+  "compilerOptions": {
+    "jsx": "react-native",
+    "allowJs": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "noEmit": true,
+    "isolatedModules": true,
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "moduleResolution": "bundler",
+    "paths": {
+      "@src/*": ["src/*"],
+      "@screens/*": ["src/screens/*"],
+      "@theme/*": ["src/themes/*"],
+      "@style/*": ["src/styles/*"],
+      "@utils/*": ["src/utils/*"],
+      "@assets/*": ["src/assets/*"],
+      "@commonComponent/*": ["src/commonComponent/*"],
+      "@components/*": ["src/components/*"],
+      "@api/*": ["src/api/*"],
+      "@App": ["App"]
+    }
+  },
+  "include": [
+    "src",
+    "App.tsx",
+    "App.js",
+    "index.ts",
+    "index.tsx"
+  ]
+}
